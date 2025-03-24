@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Week3_AssignmentApp: App {
+    @StateObject private var darkModeManager = DarkModeManager()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
+                .environmentObject(darkModeManager)
         }
     }
 }
