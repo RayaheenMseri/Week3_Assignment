@@ -78,6 +78,7 @@ The app utilizes the News API from [newsapi.org](https://newsapi.org/) to fetch 
 - Xcode 12 or later
 - Swift 5.0 or later
 - Alamofire (installed via Swift Package Manager or CocoaPods)
+- SDWebImageSwiftUI (installed via Swift Package Manager or CocoaPods)
 
 ### Steps to Run
 1. Clone or download the repository.
